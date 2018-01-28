@@ -23,12 +23,16 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.aar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
 
-    implementation 'org.mapsforge:mapsforge-core:0.9.1'
-    implementation 'org.mapsforge:mapsforge-map:0.9.1'
-    implementation 'org.mapsforge:mapsforge-map-reader:0.9.1'
-    implementation 'org.mapsforge:mapsforge-themes:0.9.1'
-    implementation 'net.sf.kxml:kxml2:2.3.0'
-    implementation 'org.mapsforge:mapsforge-map-android:0.9.1'
+    implementation 'org.mapsforge:vtm-android:0.9.2'
+    implementation 'org.mapsforge:vtm-android:0.9.2:natives-arm64-v8a'
+    implementation 'org.mapsforge:vtm-android:0.9.2:natives-armeabi'
+    implementation 'org.mapsforge:vtm-android:0.9.2:natives-armeabi-v7a'
+    implementation 'org.mapsforge:vtm-android:0.9.2:natives-mips'
+    implementation 'org.mapsforge:vtm-android:0.9.2:natives-mips64'
+    implementation 'org.mapsforge:vtm-android:0.9.2:natives-x86'
+    implementation 'org.mapsforge:vtm-android:0.9.2:natives-x86_64'
+    implementation 'org.mapsforge:vtm-themes:0.9.2'
+
     implementation 'com.caverock:androidsvg:1.2.2-beta-1'
 
     testImplementation 'junit:junit:4.12'
