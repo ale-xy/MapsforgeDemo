@@ -10,6 +10,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/animCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animated"/>
         <Button
             android:id="@+id/buttonMinus"
             android:layout_width="40dp"
@@ -23,6 +28,27 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="+"/>
+
+        <Button
+            android:id="@+id/buttonZoom"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="*"/>
+
+        <Button
+            android:id="@+id/buttonLeft"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="{"/>
+
+        <Button
+            android:id="@+id/buttonRight"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="}"/>
     </LinearLayout>
 
     <com.alexy.mapsforgeapilibrary.MapsforgeView
